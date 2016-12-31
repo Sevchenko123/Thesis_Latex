@@ -1,0 +1,152 @@
+\chapter{Introduction and Motivation}
+\pagenumbering{arabic}
+Internet and online based social media platforms, such as Facebook, Instagram, Twitter and some instant messaging services such as Snapchat or Kik are rising as the dominant way people in society communicate with each other. In addition to this, online emotional support system is an emerging kind of online platform whereby those seeking some kind of emotional help (e.g. a poor medical prognosis, loss of a loved one, or depression) consult a volunteer from a crowd of others that, ideally, offer advice and support~\cite{binik97}. An emotional support system depends on this crowd to be well intended, to be trained in active listening techniques, and to be selfless in their support of others. The rapid increase in popularity of emotional support systems indicate that they are effective tools where users achieve positive outcomes~\cite{doran2015stay}. Their popularity is further bolstered by the fact that traditional social systems are public (e.g. Twitter) or semi-public (e.g. Facebook), making them unsuitable to seek emotional support for major issues. This is because users of public and semi-public systems must navigate the tension between sharing honestly about their struggles and asking for help against the positive and inviting impression they strive to develop for their social network, followers, and outsiders (e.g. a potential employer) who may search and discover their profile~\cite{newman2011s}. 
+
+\newpage
+Many kinds of emotional support systems have been implemented, recent examples include 7 Cups of Tea, BlahTherapy, and CrisisChat. 7 Cups of Tea (7cot) is a canonical, long standing example of an online emotional support service. 7cot has a vast community of active listeners who are ready to help and listen to those who are in need. There are two types of registered users on the website, namely listeners and members. The unregistered users are called Guests. Listeners are individuals who go through active listening training on the site before becoming available to chat one-on-one with members who need support. 7cot has seen a remarkable growth in the context of number of registered active listeners and members on the website since its inception. The growing demand of such platforms, therefore make it suitable for our study of understanding how users utilize such platforms, their design choices that encourage high user engagement on such platforms. 
+
+With society'€™s ever increasing dependence on online social systems as a means to communicate with others, there has also been increase in some of the societal problems associated with them. Online harassment, or cyberbullying, is one of the greatest problems born out of online social systems. We define cyberbullying as the practice of sending an offensive, crude, rude, or demeaning message to another user online with the intention of attacking them personally. A Pew research survey from October 2014 reports that 73\% of adult internet users have observed a user being harassed in some way online and 40\% have experienced it themselves which is an alarming percentage. Past studies confirm that victims of online harassment face terrible psychological effects like depression, low self-esteem and even suicidal tendencies. For example, a 15 year old girl once committed suicide after facing a barrage of offense and slanderous messages on Facebook~\cite{hosseinmardi2015detection}. Cyberbullying is thus a grave problem with potentially devastating consequences to its victims. Therefore it is important to explore whether cyberbullying exists on platforms providing emotional support and study the measures adopted to deal with cyberbullying are sufficient enough to deal with this menace. 
+
+This thesis explores in detail how users on this platform tend to connect with each other, how they behave, utilize these systems, what design choices and user behaviors promote high user engagement on these systems and sheds light on the grave problems of cyberbullying on this platform\footnote{Portions of this thesis were previously written and published by the author in~\cite{doran2015stay,calzarossa2016measuring}.}
+The findings provide useful insights on improving existing platforms providing emotional support, creating new ones that are effective, on understanding how the Internet may be used as a €˜crowdsourced clinical psychology€™ tool to help people from immediate emotional distress and other emotional problems, discuss the problems of cyberbullying and the ways to cope with it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\iffalse
+
+All required settings have been predefined in this template.
+\\wsu.cls$-->$has all required settings to simulate this report . You can always edit this file if you are not okay with settings defined.
+\\main.tex$-->$simulates your reports
+
+margins are set to the following dimensions
+\\Left  : 1.5"
+\\Right : 1.0"
+\\Top   : 2.0" for starting page of every new chapter and 1.0" for other pages.
+\\Bottom: 1.0"
+
+
+\section{TOC}
+
+\LaTeX 
+generates TOC, LOF and LOT, once you define your chapter, section, subsection, figure and table titles with the predefined commands.
+
+\subsection{Figures}
+
+Refer to the following example to include figure.
+you have to upload your figure image in png or jpg or pdf formats before using them in your report.
+
+Numbering of the figures are predefined.
+
+\begin{figure}
+\centering %%%% this command is used to align center
+\includegraphics[width=4in]{VLSI_Chip.jpg} %include the saved image name in the braces as shown (VLSI_Chip.jpg)
+%%%% you can always adjust width of the image using command in square braces ([width=?in])
+\caption{title} 
+\end{figure}
+
+Note: Use jpg images to avoid compiling error
+
+\subsection{Tables}
+To include tables, you can use online free latex table generator to generate latex code for the required table.
+
+
+
+\begin{table}[h]
+\caption{example 1}%%%do not forget to include your caption for table
+\centering
+\vskip 0.5cm %% to include space between caption and table
+\begin{tabular}{|c|c|c|}
+\hline
+X & Y & Z \\ \hline
+1 & 1 & 1 \\ \hline
+1 & 1 & 1 \\ \hline
+\end{tabular}
+\end{table}
+
+Example 2 below illustrates the issue of table crossing the defined margin to the right
+
+\begin{table}[h]
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+X & X & X & XXXXXXXXX & X & X & X & XXXXXXXXXXXXXXXXXXX & X & X  & X & XXXXXXXXXXXXXXXXXX & X  & X & X \\ \hline
+1 & 1 & 1 & XXX       & 1 & 1 & 1 & 1                   & 1 & 1  & 1 & 1                  & 1  & 1 & 1 \\ \hline
+1 & 1 & 1 & 1         & 1 & 1 & 1 & 1                   & 1 & 1  & 1 & 1                  & 11 & 1 & 1 \\ \hline
+1 & 1 & 1 & 1         & 1 & 1 & 1 & 1                   & 1 & 11 & 1 & 1                  & 1  & 1 & 1 \\ \hline
+\end{tabular}
+\end{table}
+
+
+Solution:
+
+Use the commands "adjustbox" to adjust table width as shown below
+
+\begin{table}[h]
+\caption{example 3}
+\vskip 0.5 cm
+\centering
+\begin{adjustbox}{width=1\textwidth} % to adjust width
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+X & X & X & XXXXXXXXX & X & X & X & XXXXXXXXXXXXXXXXXXX & X & X  & X & XXXXXXXXXXXXXXXXXX & X  & X & X \\ \hline
+1 & 1 & 1 & XXX       & 1 & 1 & 1 & 1                   & 1 & 1  & 1 & 1                  & 1  & 1 & 1 \\ \hline
+1 & 1 & 1 & 1         & 1 & 1 & 1 & 1                   & 1 & 1  & 1 & 1                  & 11 & 1 & 1 \\ \hline
+1 & 1 & 1 & 1         & 1 & 1 & 1 & 1                   & 1 & 11 & 1 & 1                  & 1  & 1 & 1 \\ \hline
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\section{Writing equations}
+
+Refer to the example below.
+
+To include equation:
+
+\begin{equation}
+(a+b)^{2} = a^{2}+2ab+b^{2}
+\end{equation}
+
+
+To include or use mathematical equation or terms without numbering or highlighting, you can simply include the equation between the ``\$'' as shown here: \cite{[1]} $(a+b)^{2} = a^{2}+2ab+b^{2}$.
+
+
+\section{Citing}
+
+You can cite papers, journals etc., using the command "cite" as shown in previous section.
+
+Download and paste the BibTex of papers you want cite in reference.bib file.
+
+
+
+
+\fi
+
+
+
+

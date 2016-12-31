@@ -1,0 +1,102 @@
+% Author: Surya Kiran Akkaladevi
+% Wright State University
+% Thesis Report Format for Wright State Students
+% Dedicated to my advisor Dr. Henry Chen and all student researchers of Wright State
+
+
+\documentclass[letterpaper, 12 pt]{wsu}
+
+%\usepackage{epsfig,epic,eepic,units}
+%\usepackage{hyperref}
+\usepackage{url}
+%\usepackage{longtable}
+%\usepackage{mathrsfs}
+%\usepackage{multirow}
+%\usepackage{bigstrut}
+\usepackage{amssymb}
+\usepackage{subfig}
+%\usepackage{graphicx}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title and other sections that come before the body of the document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{title}
+\title{Masters Thesis}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Request for acceptance
+\include{accept}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Define Page numbers
+\makeatletter
+
+\newcommand\frontmatter{%
+    \cleardoublepage
+  %\@mainmatterfalse
+\pagenumbering{roman}}
+
+\newcommand\mainmatter{%
+    \cleardoublepage
+ % \@mainmattertrue
+  \pagenumbering{arabic}}
+
+\newcommand\backmatter{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+ % \@mainmatterfalse
+   }
+   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Abstract
+
+\include{abstract}
+
+%%%%%%%%%%%%%%%%%Setting Page numbers for front matter
+
+\frontmatter
+\setcounter {page} {4}
+% introduction section
+\tableofcontents
+\listoffigures
+\listoftables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%acknowledge
+
+%\include{acknowledge}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Now lets include the body of the document...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\mainmatter
+
+\include{acknowledge}
+\include{Intro}
+\include{Related_Research}
+\include{7cot_overview}
+\include{Users2}
+\include{User_Eng}
+\include{Cyb}
+\include{Con}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%References
+
+\bibliographystyle{IEEEtran} % or try abbrvnat or unsrtnat
+\bibliography{reference}
+\addcontentsline{toc}{chapter}{REFERENCES}
+
+
+\end{document}
+

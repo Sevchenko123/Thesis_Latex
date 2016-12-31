@@ -1,0 +1,32 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Browsing for Listeners on 7cot\relax }}{10}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Forums on 7cot\relax }}{10}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Group Chats on 7cot\relax }}{11}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 7cot bipartite network; listeners are green and members are colored with hotter colors by their degree.\relax }}{14}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Edge sampled projection networks with nodes colored by clustering coefficient\relax }}{16}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Member network sample}}}{16}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Listener network sample}}}{16}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Projection network degree distributions\relax }}{18}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Member projection}}}{18}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Listener projection}}}{18}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Centrality distributions for members and listeners\relax }}{20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{20}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{20}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Projection network cluster coefficient distributions\relax }}{21}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Member projection}}}{21}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Listener projection}}}{21}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Quantile Plot\relax }}{25}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Predictions\relax }}{26}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Feature Importance in Random Forest Model\relax }}{27}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces ROC Curve\relax }}{29}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Gini Coefficient\relax }}{30}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Percent of Active Members retained\relax }}{31}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Intertopic map of LDAVIS clusters\relax }}{33}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Conversations of Bullies before and after block(s)\relax }}{37}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Conversations of Bullies before and after block(s)\relax }}{38}
+\addvspace {10\p@ }
